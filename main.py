@@ -1,14 +1,6 @@
 import mysql.connector
 import streamlit as st
 
-# Establish a connection to MySQL Server
-# mydb = mysql.connector.connect(
-#     host="localhost",
-#     user="root",
-#     password="root",
-#     database="crud_new1"
-# )
-
 # Function to establish a connection to MySQL Server
 def init_connection():
     return mysql.connector.connect(
